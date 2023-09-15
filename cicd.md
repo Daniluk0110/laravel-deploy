@@ -1,8 +1,12 @@
 # HTML meta для SSL
- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+ ```html
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+```
+ 
 
 
 # GITLAB CI
+```yml
 stages:
   - build
   - deploy
@@ -104,6 +108,8 @@ prod_deploy:
       && php artisan config:cache
       && php artisan route:cache
       "
+
+```
 
 
 
