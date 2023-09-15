@@ -1,8 +1,8 @@
-HTML meta для SSL
+# HTML meta для SSL
  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
 
-GITLAB CI
+# GITLAB CI
 stages:
   - build
   - deploy
